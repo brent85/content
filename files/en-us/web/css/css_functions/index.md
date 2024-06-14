@@ -265,8 +265,10 @@ The {{CSSxRef("&lt;basic-shape&gt;")}} CSS [data type](/en-US/docs/Web/CSS/CSS_T
   - : Defines a rectangle shape using the specified distances from the top and left edges of the reference box and the rectangle width and height.
 - {{CSSxRef("basic-shape/polygon","polygon()")}}
   - : Defines a polygon shape.
-- {{CSSxRef("path", "path()")}}
+- {{CSSxRef("basic-shape/path", "path()")}}
   - : Accepts an SVG path string to enable a shape to be drawn.
+- {{CSSxRef("basic-shape/shape", "shape()")}}
+  - : Accepts a comma-separated list of commands defining the shape to be drawn.
 
 ## Reference functions
 
@@ -317,7 +319,7 @@ The following functions are used as a value in transition and animation properti
   - : Easing function that interpolates linearly between its points.
 - {{cssxref("easing-function#cubic_b%C3%A9zier_easing_function", "cubic-bezier()")}}
   - : Easing function that defines a cubic Bézier curve.
-- {{cssxref("easing-function#step_easing_function", "steps()")}}
+- {{cssxref("easing-function#steps_easing_function", "steps()")}}
   - : Iteration along a specified number of stops along the transition, displaying each stop for equal lengths of time.
 
 ## Animation functions

@@ -9,7 +9,7 @@ browser-compat: css.at-rules.container
 
 The **`@container`** [CSS](/en-US/docs/Web/CSS) [at-rule](/en-US/docs/Web/CSS/At-rule) is a conditional group rule that applies styles to a [containment context](/en-US/docs/Web/CSS/CSS_containment/Container_queries#naming_containment_contexts).
 Style declarations are filtered by a condition and applied to the container if the condition is true.
-The condition is evaluated when the container changes size.
+The condition is evaluated when the container size or [`<style-feature>`](#container_style_queries) value changes.
 
 The {{cssxref("container-name")}} property specifies a list of query container names. These names can be used by `@container` rules to filter which query containers are targeted. The optional, case-sensitive `<container-name>` filters the query containers that are targeted by the query.
 
@@ -48,7 +48,7 @@ For example:
   - : An optional `<container-name>` and a `<container-query>`. Styles defined in the `<stylesheet>` are applied if the condition is true.
 
     - `<container-name>`
-      - : Optional. The name of the container that the styles will be applied to when the query evaluates to true, spccified as an {{cssxref("ident")}}.
+      - : Optional. The name of the container that the styles will be applied to when the query evaluates to true, specified as an {{cssxref("ident")}}.
     - `<container-query>`
       - : A set of features that are evaluated against the query container when the size of the container changes.
 
@@ -297,8 +297,10 @@ The global `revert` and `revert-layer` are invalid as values in a `<style-featur
 
 ## See also
 
-- [Container queries](/en-US/docs/Web/CSS/CSS_containment/Container_queries)
+- [Using container queries](/en-US/docs/Web/CSS/CSS_containment/Container_queries)
+- [Using container size and style queries](/en-US/docs/Web/CSS/CSS_containment/Container_size_and_style_queries)
 - {{Cssxref("container-name")}}
 - {{Cssxref("container-type")}}
 - {{Cssxref("contain")}}
 - {{Cssxref("content-visibility")}}
+- [CSS containment module](/en-US/docs/Web/CSS/CSS_containment)

@@ -5,6 +5,8 @@ page-type: aria-attribute
 spec-urls: https://w3c.github.io/aria/#aria-modal
 ---
 
+{{AccessibilitySidebar}}
+
 The `aria-modal` attribute indicates whether an element is modal when displayed.
 
 ## Description
@@ -91,15 +93,10 @@ Inherits into roles:
 
 {{Specifications}}
 
-## See Also
+## See also
 
 - HTML {{HTMLElement("dialog")}} element
 - [`alertdialog` role](/en-US/docs/Web/Accessibility/ARIA/Roles/alertdialog_role)
 - [`dialog` role](/en-US/docs/Web/Accessibility/ARIA/Roles/dialog_role)
 - HTML [`inert` global attribute](/en-US/docs/Web/HTML/Global_attributes/inert)
 - HTMLElement API [`inert`](/en-US/docs/Web/API/HTMLElement/inert) property
-
-<section id="Quick_links">
-<strong><a href="/en-US/docs/Web/Accessibility/ARIA/Attributes">WAI-ARIA states and properties</a></strong>
-{{ListSubpagesForSidebar("/en-US/docs/Web/Accessibility/aria/Attributes")}}
-</section>

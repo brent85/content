@@ -21,15 +21,6 @@ After CSS 2.1, the scope of the specification increased significantly and the pr
 - CSS Reference
   - : Our [exhaustive CSS reference](/en-US/docs/Web/CSS/Reference) for seasoned Web developers describes every property and concept of CSS.
 
-> **Callout:**
->
-> #### Looking to become a front-end web developer?
->
-> We have put together a course that includes all the essential information you need to
-> work towards your goal.
->
-> [**Get started**](/en-US/docs/Learn/Front-end_web_developer)
-
 ## Tutorials
 
 Our [CSS Learning Area](/en-US/docs/Learn/CSS) features multiple modules that teach CSS from the ground up — no previous knowledge required.
@@ -84,6 +75,5 @@ The [CSS layout cookbook](/en-US/docs/Web/CSS/Layout_cookbook) aims to bring tog
 
 ## See also
 
-- [CSS demos](/en-US/docs/Web/Demos#css): Get a creative boost by exploring examples of the latest CSS technologies in action.
 - Web languages to which CSS is often applied: [HTML](/en-US/docs/Web/HTML), [SVG](/en-US/docs/Web/SVG), [MathML](/en-US/docs/Web/MathML), {{Glossary("XHTML")}}, and [XML](/en-US/docs/Web/XML/XML_introduction).
 - [Stack Overflow questions about CSS](https://stackoverflow.com/questions/tagged/css)

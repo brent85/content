@@ -6,9 +6,9 @@ page-type: web-api-instance-method
 browser-compat: api.MediaKeyStatusMap.get
 ---
 
-{{APIRef("EncryptedMediaExtensions API")}}
+{{APIRef("EncryptedMediaExtensions API")}}{{SecureContext_Header}}
 
-The **`get`** property of the
+The **`get()`** method of the
 {{domxref("MediaKeyStatusMap")}} interface returns the value associated with the given
 key, or `undefined` if there is none.
 

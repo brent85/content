@@ -65,8 +65,6 @@ Content-Type: text/html
 
 ### Preload example
 
-> **Warning:** Some browsers only support `preconnect` over 103 Early Hints. See the implementation notes in the [browser compatibility](#browser_compatibility) section below.
-
 The following `103` early hint response indicates a stylesheet `style.css` might be needed by the final response.
 
 ```http
@@ -98,10 +96,10 @@ Link: </style.css>; rel=preload; as=style
 ```
 
 The early response restricts preloading to the same origin as the request.
-The stylesheet will preload if the origin matches.
+The stylesheet will be preloaded if the origin matches.
 
 The final response might set the CSP to `none`, as shown below.
-The stylesheet has already preloaded, but will not be used when rendering the page.
+The stylesheet has already been preloaded, but will not be used when rendering the page.
 
 ```http
 200 OK

@@ -198,7 +198,7 @@ By ordering things in this way, we at least have an idea in which part of the st
 
 ### Avoid overly-specific selectors
 
-If you create very specific selectors, you will often find that you need to duplicate chunks of your CSS to apply the same rules to another element. For example, you might have something like the below selector, which applies the rule to a `<p>` with a class of `box` inside an `<article>` with a class of `main`.
+If you create very specific selectors, you will often find that you need to duplicate chunks of your CSS to apply the same rules to another element. For example, you might have something like the selector below, which applies the rule to a `<p>` with a class of `box` inside an `<article>` with a class of `main`.
 
 ```css
 article.main p.box {
@@ -391,7 +391,7 @@ If the partials are all loaded into an index file, as implied above, you can the
 
 #### Post-processing for optimization
 
-If you are concerned about adding size to your stylesheets, for example, by adding a lot of additional comments and whitespace, then a post-processing step could be to optimize the CSS by stripping out anything unnecessary in the production version. An example of a post-processor solution for doing this would be [cssnano](https://cssnano.co/).
+If you are concerned about adding size to your stylesheets, for example, by adding a lot of additional comments and whitespace, then a post-processing step could be to optimize the CSS by stripping out anything unnecessary in the production version. An example of a post-processor solution for doing this would be [cssnano](https://cssnano.github.io/cssnano/).
 
 ## Summary
 
